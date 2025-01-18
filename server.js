@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 });
 
 // Start the server
-const PORT = 8080; // or any other port you prefer
+const PORT = 80; // or any other port you prefer
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
